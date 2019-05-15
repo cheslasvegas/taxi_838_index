@@ -1,0 +1,124 @@
+.footer-hr {
+    width: 75%;
+}
+
+.footer {
+    height: auto;
+    position: relative;
+    color: white;
+    flex: 0 0 auto;
+    background-color: rgba(39, 40, 42, 0.8);
+}
+
+.footer-menu-header li {
+    cursor: pointer;
+}
+
+.footer-menu-header li a:hover {
+    color: orangered;
+}
+
+.footer a:hover {
+    color: #fc9d03;
+}
+
+.footer-menu {
+    margin: 0 auto;
+    max-width: 1920px;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-flow: column;
+    min-height: 370px;
+    height: auto;
+    padding: 0 50px;
+}
+
+.footer .logo {
+    position: absolute;
+    top: 5%;
+    left: 1vw;
+
+}
+
+.footer-menu-header {
+    margin-top: 30px;
+    width: 80%;
+}
+
+.footer-menu-header ul {
+    display: flex;
+    margin: 0;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.footer-menu-header ul li {
+    padding: 0 20px;
+
+}
+
+.footer-menu .footer-menu-header a {
+    color: #cbab15;
+}
+
+.footer-menu .footer-menu-lists {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.footer-menu .footer-menu-lists ul {
+    width: 250px;
+    padding: 0 20px;
+    line-height: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-menu .footer-menu-lists .link {
+    cursor: pointer;
+}
+
+.footer-menu .footer-menu-lists ul:first-child li:last-child {
+    margin-top: 60px;
+}
+
+.footer-menu ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-bottom {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #27282a;
+    border-top: 1.4px dashed #878684;
+    min-height: 120px;
+    padding: 0 40px;
+    height: auto;
+}
+
+.footer-bottom div {
+    padding: 0 20px;
+}
+
+.footer-bottom .icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 150px;
+}
+
+.footer-bottom .icons img {
+    display: inline-block;
+    cursor: pointer;
+}
